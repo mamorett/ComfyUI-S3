@@ -20,22 +20,20 @@ A comprehensive S3-compatible storage solution for ComfyUI that supports **any S
 
 ### Method 2: Manual Installation
 1. Navigate to your ComfyUI custom nodes directory:
-   ```bash
+```bash
    cd ComfyUI/custom_nodes/
 ```
-Clone this repository:
+2. Clone this repository:
 
-bash
-
-
+```bash
 git clone https://github.com/your-repo/ComfyUI-S3-Storage.git
-Install dependencies:
+```
+3. Install dependencies:
 
-bash
-
-
-cd ComfyUI-S3-Storage
-pip install -r requirements.txt
+```bash
+    cd ComfyUI-S3-Storage
+    pip install -r requirements.txt
+```
 Restart ComfyUI
 
 ⚙️ Configuration
