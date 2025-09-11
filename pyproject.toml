@@ -1,0 +1,12 @@
+[project]
+name = "comfyui-s3-storage"
+description = "S3-compatible storage nodes for ComfyUI with secure configuration management"
+version = "1.0.0"
+license = {text = "MIT"}
+dependencies = [
+    "minio>=7.1.0",
+    "Pillow>=9.0.0",
+]
+
+[project.urls]
+Repository = "https://github.com/mamorett/ComfyUI-S3"

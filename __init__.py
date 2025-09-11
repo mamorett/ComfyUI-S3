@@ -8,7 +8,17 @@ from .nodes import NODE_CLASS_MAPPINGS, NODE_DISPLAY_NAME_MAPPINGS
 
 __all__ = ['NODE_CLASS_MAPPINGS', 'NODE_DISPLAY_NAME_MAPPINGS']
 
-# Metadata
+# Metadata for ComfyUI Manager
+WEB_DIRECTORY = "./web"
 __version__ = "1.0.0"
-__author__ = "mamorett"
-__description__ = "S3-compatible storage nodes for ComfyUI with secure configuration management"
+
+# Node information
+def get_extension_info():
+    return {
+        "name": "ComfyUI S3 Storage",
+        "version": __version__,
+        "description": "S3-compatible storage nodes with secure configuration management",
+        "author": "mamorett",
+        "license": "MIT",
+        "reference": "https://github.com/mamorett/ComfyUI-S3",
+    }
